@@ -1,5 +1,5 @@
 class Zch < Formula
-  desc "TUI dashboard for competitive programming: receive problems, run test cases, and submit to Codeforces / AtCoder"
+  desc "TUI dashboard for competitive programming: receive problems, run tests, and submit to Codeforces"
   homepage "https://github.com/prsweet/zch"
   version "2.0.0"
   if OS.mac?
