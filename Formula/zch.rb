@@ -1,15 +1,15 @@
 class Zch < Formula
   desc "TUI dashboard for competitive programming: receive problems, run tests, and submit to Codeforces"
   homepage "https://github.com/prsweet/zch"
-  version "2.0.0"
+  version "2.0.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/prsweet/zch/releases/download/v2.0.0/zch-aarch64-apple-darwin.tar.xz"
-      sha256 "e2dc401edcda62b8f73a60b264bac0282925f051346639634dac1b7445c32fda"
+      url "https://github.com/prsweet/zch/releases/download/v2.0.1/zch-aarch64-apple-darwin.tar.xz"
+      sha256 "e6f0f38d5607e5356e19f55236bd7ee5a44dc13b6cc846efe0e7d108d58e41c3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/prsweet/zch/releases/download/v2.0.0/zch-x86_64-apple-darwin.tar.xz"
-      sha256 "531e884d4d55161fd9a244a82f17ab70d89a2f9d175be71f56502c2cbbd0509e"
+      url "https://github.com/prsweet/zch/releases/download/v2.0.1/zch-x86_64-apple-darwin.tar.xz"
+      sha256 "926a6917c8d36a9da094b77cc76bfe9e46521a415dbbcf7afb4039db7f0b2056"
     end
   end
 
