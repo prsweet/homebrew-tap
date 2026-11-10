@@ -1,17 +1,18 @@
 class Zch < Formula
-  desc "TUI dashboard for competitive programming: receive problems, run tests, and submit to Codeforces"
+  desc "Codeforces and competitive programming TUI for the Zed editor: import problems from Competitive Companion, run tests with diffs, and submit from the terminal"
   homepage "https://github.com/prsweet/zch"
   version "3.0.0"
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/prsweet/zch/releases/download/v3.0.0/zch-aarch64-apple-darwin.tar.xz"
-      sha256 "e280a4748f760a4c409191cb21c253896c846ba021785a0cf76d91733ee1229b"
+      sha256 "07544eedc61ec75e734893bbeef7967a44607f491f730699ca35197b4dbf249c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/prsweet/zch/releases/download/v3.0.0/zch-x86_64-apple-darwin.tar.xz"
-      sha256 "77f76363190cf2bb8814deb570ec1d991f27aae745fcec6d62cb599357893e09"
+      sha256 "64010acd66270d88db16f35e2107ea4ba8ac4d78d07629f360e13081baf58139"
     end
   end
+  license "MIT"
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin": {},
